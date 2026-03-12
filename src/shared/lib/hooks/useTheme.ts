@@ -1,5 +1,9 @@
+import {
+  LOCALE_STORAGE_THEME_KEY,
+  ThemeContext,
+} from "app/providers/ThemeProviders/lib/ThemeContext"; // ФСД не идеален для всех случаев - не хочу размазывать провайдеры и контекс, его констатнты по всмеу проекту, поэтому тут экспорт из app оправдан
 import { useContext } from "react";
-import { LOCALE_STORAGE_THEME_KEY, Theme, ThemeContext } from "./ThemeContext";
+import { Theme } from "shared/types/global";
 
 interface UseThemeResult {
   theme: Theme;

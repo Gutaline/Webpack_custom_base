@@ -8,6 +8,7 @@ const pathsConfig: IconfigPath = {
   entry: path.resolve(rootDir, "src", "index.tsx"),
   output: path.resolve(rootDir, "build"),
   html: path.resolve(rootDir, "public", "index.html"),
+  src: path.resolve(rootDir, "src"),
 };
 
 export { pathsConfig };
