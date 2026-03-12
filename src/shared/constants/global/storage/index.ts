@@ -1,0 +1,3 @@
+const LOCALE_STORAGE_THEME_KEY = "theme";
+
+export { LOCALE_STORAGE_THEME_KEY };

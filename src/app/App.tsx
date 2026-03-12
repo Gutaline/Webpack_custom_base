@@ -1,10 +1,12 @@
 import { Link, Route, Routes } from "react-router-dom";
 import { Suspense } from "react";
-import MainPageAsync from "./pages/MainPage/MainPage.async";
-import AboutPageAsync from "./pages/AboutPage/AboutPage.async";
+
+import MainPageAsync from "pages/MainPage/ui/MainPage";
+import AboutPageAsync from "pages/AboutPage/ui/AboutPage.async";
+
+import { useTheme } from "shared/lib/hooks/useTheme";
 
 import "./styles/index.scss";
-import { useTheme } from "./theme/useTheme";
 
 export const App = () => {
   const { theme, toggleTheme } = useTheme();
