@@ -1,8 +1,8 @@
 import { Configuration } from "webpack";
-import { buildLoaders } from "../config/buildLoaders";
-import { buildResolve } from "../config/buildResolve";
-import { buildPlugins } from "../config/buildPlugins";
-import { buildMode } from "../config/types/configTypes";
+import { buildLoaders } from "./buildLoaders";
+import { buildResolve } from "./buildResolve";
+import { buildPlugins } from "./buildPlugins";
+import { buildMode } from "./types/configTypes";
 import { pathsConfig } from "./constants/configConstants";
 import { buildDevServer } from "./buildDevServer";
 

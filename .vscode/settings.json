@@ -1,0 +1,17 @@
+{   
+    // ---- Для i18n
+    // Указываем, какой язык исходный (тот, на котором пишете код)
+    "i18n-ally.sourceLanguage": "ru",
+    // Путь к папке с файлами переводов
+    "i18n-ally.localesPaths": ["public/locales"], 
+    // Или, если файлы лежат в src: ["src/locales"]
+    
+    // Как организованы ключи: вложенные (nested) или плоские (flat)
+    "i18n-ally.keystyle": "flat",
+    
+    // Какой язык показывать в коде (для удобства)
+    "i18n-ally.displayLanguage": "ru",
+    
+    // Указываем, что используем react-i18next
+    "i18n-ally.enabledFrameworks": ["react-i18next"]
+}
