@@ -1,8 +1,4 @@
-import { validateValue } from "./validateValue";
-
-// test("Валидация значения", () => {
-//   expect(validateValue(50)).toBe(true);
-// });
+import { validateValue } from "shared/lib/utils/testJest/validateValue";
 
 describe("validateValue", () => {
   test("Корректное значение", () => {
