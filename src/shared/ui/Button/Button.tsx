@@ -1,12 +1,12 @@
 import clsx from "clsx";
 import { ButtonHTMLAttributes, FC } from "react";
-
 import * as styles from "./Button.module.scss";
 
 export enum ButtonTheme {
   PRIMARY = "primary",
   CLEAR = "clear",
 }
+
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   className?: string;
   theme?: ButtonTheme;
